@@ -40,3 +40,27 @@ card = f"""
 print("Printed using f-string")
 print (card)
 # The f-string method is more readable and concise.
+
+## Coding exercise for using all data types.:
+
+name = "Nate"
+age = 25
+height = 5.9
+is_student = True
+hobbies = ["reading", "coding", "gaming"]
+
+card = f"""
++---------------------+
+|                     |
+|    PIAIC Student    |
+|                     |
+|   Name: {name}      |
+|   Age: {age +7}        |
+|   Height: {height}  |
+|   Student: {"Yes" if is_student else "No"} |
+|   Hobbies: {', '.join(hobbies)} |
+|                     |
++---------------------+
+"""
+print("Printed using f-string with all data types")
+print (card)
